@@ -9,3 +9,8 @@ echo deb https://aquasecurity.github.io/trivy-repo/deb $(lsb_release -sc) main |
 sudo apt-get update -y
 sudo apt-get install trivy -y
 ```
+
+# Use below command to check the version of Trivy
+
+```bash
+trivy --version
