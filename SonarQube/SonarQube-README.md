@@ -20,4 +20,4 @@ sudo usermod -aG docker $USER && newgrp docker
 Run the below commands to deploy the SonarQube as container 
 
 ```bash
-docker run -dit --name sonarqube 9000:9000 sonarqube:lts-community
+docker run -dit --name sonarqube -p 9000:9000 sonarqube:lts-community
